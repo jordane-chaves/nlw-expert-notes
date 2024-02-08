@@ -25,9 +25,11 @@
 
 ## 💻 Projeto
 
-Notes é um aplicativo de notas, com um grande destaque na gravação de áudios que são convertidos em texto em tempo real automaticamente.
+Diferente de outros aplicativos de notas, o Notes é uma aplicação em que você pode gravar uma nota usando áudio que será convertido em texto automaticamente, isso é feito usando a interface da própria web, sem necessidade de contas externas, utilizando a [Speech Recognition API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition), disponível nos navegadores modernos.
 
-É um projeto desenvolvido em aula no evento NLW expert, um evento gratuito em programação, promovido pela [Rocketseat](https://www.rocketseat.com.br).
+Além disso, criamos um aplicativo responsivo, aprendendo sobre estilização e responsividade. Foi abordado também a acessibilidade da aplicação e a criação de modais.
+
+Este é um projeto desenvolvido em aula no evento NLW expert, um evento gratuito em programação, promovido pela [Rocketseat](https://www.rocketseat.com.br).
 
 ## 🚀 Tecnologias
 
@@ -38,8 +40,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Tailwindcss](https://tailwindcss.com/)
 - [Radix](https://www.radix-ui.com/)
 - [Sonner](https://sonner.emilkowal.ski/)
-- [LocalStorage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)
-- [SpeechRecognitionAPI](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
+- [Vite](https://vitejs.dev/)
+- [Local Storage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)
+- [Speech Recognition API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
 
 ## 🔖 Layout
 
@@ -47,9 +50,29 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 ## 🎲 Como executar
 
-1. Clone este repositório.
-2. Instale as dependências com `npm install`
-3. Execute o servidor com `npm run dev`
+Clone este repositório
+
+```bash
+git clone https://github.com/jordane-chaves/nlw-expert-notes.git
+```
+
+Acesse o diretório da aplicação
+
+```bash
+cd nlw-expert-notes
+```
+
+Faça a instalação das dependências
+
+```bash
+npm install
+```
+
+Execute a aplicação
+
+```bash
+npm run dev
+```
 
 ## 📝 Licença
 
